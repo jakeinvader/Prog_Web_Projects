@@ -6,37 +6,83 @@
         <title>Bases de Datos</title>
     </head>
     <body>
-        <!--Pagina de información con respecto a bases de datos-->
-        <h1>MongoDB</h1>
-        <h2>MySQL</h2>
-        <h3>Redis</h3>
-        <h4>PostgreSQL</h4>
-        <h5>OracleDB</h5>
-        <h6>Cassandra</h6>
+        <header>
+            <nav id="menu">
 
-        <p><i>Las bases de datos son importantes</i></p>
-        <p> <small>para el back-end junto con el front-end</small></p>
+                <img src="img/logo.jpg" width="50px">
 
-        
-        <section id="menu">
+                <a href="#parrafo1">Parrafo No.1</a></li>
+                <a href="#parrafo2">Parrafo No.2</a></li>
+                <a href="https://www.oracle.com/mx/database/what-is-database/" target="_blank">Más información y referencia</a></li>
+            </nav>
+        </header>
+
+        <main>
+            <!--Pagina de información con respecto a bases de datos-->
+            <h1>Bases de Datos</h1>
+
+            <h2>Bases de Datos Conocidas</h2>
+
+            <ul>
+                <li><a href="https://www.mongodb.com/es" target="_blank">MongoDB</a></li>
+                <li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
+                <li><a href="https://redis.io/" target="_blank">Redis</a></li>
+                <li><a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a></li>
+                <li><a href="https://www.oracle.com/database/" target="_blank">OracleDB</a></li>
+                <li><a href="https://cassandra.apache.org/_/index.html" target="_blank">Cassandra</a></li>
+            </ul>
+
+            <h2>Introducción</h2>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yoeV4Ex8C8U?si=XsFxPuow_NDY5LoP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <p><i>Las bases de datos son importantes</i></p>
+            <p> <small>para el back-end junto con el front-end</small></p>
+
+            <p id="#parrafo1">Una base de datos es una <Strong>recopilación organizada de información</Strong> o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático. Las bases de datos incluyen desde bases de datos relacionales hasta bases de datos en la nube.</p>
+            <br>
+
             <p>
-                <a href="#parrafo1">Parrafo No.1</a>
-                <a href="#parrafo2">Parrafo No.2</a>
-                <a href="https://www.oracle.com/mx/database/what-is-database/">Más información y referencia</a>
-                <a href="./Bases de datos/MongoDB.html"></a>
+                <img src="img/bases_datos.jpg" width="500px">
             </p>
-        </section>
 
-        <p id="#parrafo1">Una base de datos es una <Strong>recopilación organizada de información</Strong> o datos estructurados, que normalmente se almacena de forma electrónica en un sistema informático. Las bases de datos incluyen desde bases de datos relacionales hasta bases de datos en la nube.</p>
-        <br>
+            <p id="#parrafo2">Las bases de datos son parte fundamental de toda aplicación, en la actualidad la mayoría de páginas web, tiendas en línea, aplicaciones móviles, blogs, etc., están almacenando datos constantemente de los usuarios y empresas que usan están plataformas.</p>
+            <br>
 
+            <h2>Evolución</h2>
 
-        <p id="#parrafo2">Las bases de datos son parte fundamental de toda aplicación, en la actualidad la mayoría de páginas web, tiendas en línea, aplicaciones móviles, blogs, etc., están almacenando datos constantemente de los usuarios y empresas que usan están plataformas.</p>
-        <br>
+            <p>Las bases de datos han evolucionado drásticamente desde su inicio a principios de la década de 1960. Las bases de datos de navegación, como la base de datos jerárquica (que se basaba en un modelo de árbol y permitía una relación de uno a muchos) y la base de datos de red (un modelo más flexible que permitía relaciones múltiples), eran los sistemas originales que se utilizaban para almacenar y manipular datos. Aunque eran sencillos, estos primeros sistemas eran inflexibles. En la década de 1980, se hicieron populares las bases de datos relacionales, seguidas de las bases de datos orientadas a objetos en la década de 1990. Más recientemente, las bases de datos NoSQL surgieron como respuesta al crecimiento de Internet y la necesidad de acelerar la velocidad y el procesamiento de los datos no estructurados. Hoy en día, las bases de datos en la nube y las bases de datos de autogestión están abriendo nuevos horizontes en lo que respecta a la forma en la que se recopilan, se almacenan, se gestionan y se utilizan los datos.</p>
 
-        <h2>Evolución</h2>
+            <p>
+                <a href="https://www.oracle.com/mx/database/what-is-database/" target="_blank"> <img src="img/evo_bases_datos.jpg" width="500px"> </a>
+            </p>
 
-        <p>Las bases de datos han evolucionado drásticamente desde su inicio a principios de la década de 1960. Las bases de datos de navegación, como la base de datos jerárquica (que se basaba en un modelo de árbol y permitía una relación de uno a muchos) y la base de datos de red (un modelo más flexible que permitía relaciones múltiples), eran los sistemas originales que se utilizaban para almacenar y manipular datos. Aunque eran sencillos, estos primeros sistemas eran inflexibles. En la década de 1980, se hicieron populares las bases de datos relacionales, seguidas de las bases de datos orientadas a objetos en la década de 1990. Más recientemente, las bases de datos NoSQL surgieron como respuesta al crecimiento de Internet y la necesidad de acelerar la velocidad y el procesamiento de los datos no estructurados. Hoy en día, las bases de datos en la nube y las bases de datos de autogestión están abriendo nuevos horizontes en lo que respecta a la forma en la que se recopilan, se almacenan, se gestionan y se utilizan los datos.</p>
-        <a href="#menu">Menu</a>
+            <iframe src="https://trinityfs.com.co/" frameborder="0"></iframe>
+
+        </main>
+        <footer>
+
+            <h3>Registrate</h3>
+
+            <form method="get">
+                <fieldset > Datos Usuario <br>
+                    Nombre: <input type="text" id="nombre" placeholder="Digite el nombre"><br>
+                    Apellido: <input type="text" id="apellido" placeholder="Digite el apellido"><br>
+                    Email: <input type="email" id="correo" placeholder="Digite el correo"><br>
+                    Password: <input type="password" id="password" placeholder="Digite la contraseña"><br>
+                    <input type="submit" value="Registrarse">
+                </fieldset>
+            </form>
+
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="https://trinityfs.com.co/" target="_blank">Trinity</a></li>
+                    <li><a href="https://www.instagram.com/oracle/" target="_blank"></a></li>
+                    <li><a href="https://www.facebook.com/Oracle/" target="_blank"></a></li>
+                    <li><a href="https://www.oracle.com/" target="_blank"></a></li>
+                </ul>
+            </nav>
+        </footer>
     </body>
 </html>
